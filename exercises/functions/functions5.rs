@@ -5,8 +5,9 @@
 
 
 fn main() {
-    let answer = square(3);
-    println!("The square of 3 is {}", answer);
+    let num: i32 = 3;
+    let answer = square(num);
+    println!("The square of 3 is {answer}");
 }
 
 fn square(num: i32) -> i32 {

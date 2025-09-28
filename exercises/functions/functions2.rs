@@ -5,11 +5,13 @@
 
 
 fn main() {
-    call_me(3);
+    let num: i32 = 3;
+    call_me(num);
 }
 
 fn call_me(num: i32) {
     for i in 0..num {
-        println!("Ring! Call number {}", i + 1);
+        let print_num = i + 1;
+        println!("Ring! Call number {print_num}");
     }
 }
